@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBrakerClient", "CircuitBrakerClient\CircuitBrakerClient.csproj", "{17D75F00-BCFB-4736-AA17-010D7B0B7FE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB} = {44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuiBrakerService", "CircuiBrakerService\CircuiBrakerService.csproj", "{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D75F00-BCFB-4736-AA17-010D7B0B7FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D75F00-BCFB-4736-AA17-010D7B0B7FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D75F00-BCFB-4736-AA17-010D7B0B7FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D75F00-BCFB-4736-AA17-010D7B0B7FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A4D3FE-BD8C-4C44-BAEE-FED4E3B2E6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
